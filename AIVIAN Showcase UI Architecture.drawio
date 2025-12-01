@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NB0Xfyq_SxlvICKzqIvA" name="Seite-2">
-    <mxGraphModel dx="1182" dy="630" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="2600" math="0" shadow="0">
+    <mxGraphModel dx="1668" dy="889" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="2600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,38 +32,38 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Step 1: Frontend Server starts&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="42" width="231" x="140" y="392" as="geometry" />
+          <mxGeometry height="42" width="231" x="196.25" y="392" as="geometry" />
         </mxCell>
-        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-14" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="Qrcdlg2kaO3kX9g_ZXo7-13" value="">
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-14" edge="1" parent="1" source="Qrcdlg2kaO3kX9g_ZXo7-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Qrcdlg2kaO3kX9g_ZXo7-13" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="255" y="707" as="sourcePoint" />
+            <mxPoint x="259" y="665" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-16" edge="1" parent="1" source="Qrcdlg2kaO3kX9g_ZXo7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qrcdlg2kaO3kX9g_ZXo7-15" value="Authenticated (User != Null)">
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-16" edge="1" parent="1" source="Qrcdlg2kaO3kX9g_ZXo7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qrcdlg2kaO3kX9g_ZXo7-15" value="Authenticated&amp;nbsp;&lt;div&gt;(User != Null)&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-18" edge="1" parent="1" source="Qrcdlg2kaO3kX9g_ZXo7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qrcdlg2kaO3kX9g_ZXo7-17" value="Not Authenticated (User = Null)">
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-18" edge="1" parent="1" source="Qrcdlg2kaO3kX9g_ZXo7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qrcdlg2kaO3kX9g_ZXo7-17" value="Not Authenticated&amp;nbsp;&lt;div&gt;(User = Null)&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-19" connectable="0" parent="Qrcdlg2kaO3kX9g_ZXo7-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Based on the context received by AuthProvider,&lt;div&gt;within the &amp;lt;ProtectedApp&amp;gt; component,&amp;nbsp;&lt;/div&gt;&lt;div&gt;it is checked if user is null&lt;/div&gt;" vertex="1">
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-19" connectable="0" parent="Qrcdlg2kaO3kX9g_ZXo7-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Based on the context provided by AuthProvider,&lt;div&gt;within the &amp;lt;ProtectedApp&amp;gt; component,&amp;nbsp;&lt;/div&gt;&lt;div&gt;it is checked if user is null&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.7872" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Step 2: The user opens any frontend page.&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;App.tsx is wrapped in &amp;lt;AuthProvider&amp;gt; (React Functional Component)&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;AuthProvider component comes from AuthContext.tsx which returns a JSX element of AuthContext created in context.ts&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;App and all its children as access auth context.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="182" width="413.5" x="48.75" y="483" as="geometry" />
+          <mxGeometry height="133" width="413.5" x="105" y="483" as="geometry" />
         </mxCell>
         <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;Authentication Process&lt;/h2&gt;" vertex="1">
           <mxGeometry height="30" width="224" x="56" y="336" as="geometry" />
         </mxCell>
         <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-13" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;AuthContext.tsx&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;u&gt;AuthProvider Functional Component&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Returns AuthContext which is a React context created in context.ts containing the following fields:&lt;/font&gt;&lt;/li&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;user (Interface with id, name, email)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;loading (React State Hook initially set to &quot;true&quot;)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;login (Function that redirects to &lt;i style=&quot;&quot;&gt;http://localhost:3000/auth/login&lt;/i&gt;)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;logout (Function to send POST message to &lt;i&gt;http://localhost:3000/auth/logout&lt;/i&gt; and redirects user to /login)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;checkAuth (Function to call http://localhost:3000/auth/me endpoint and return user data).&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="182" width="539" x="532" y="616" as="geometry" />
+          <mxGeometry height="182" width="539" x="574" y="458.5" as="geometry" />
         </mxCell>
-        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-15" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="42" y="861" as="geometry" />
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-15" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=10;align=left;" value="React Routes are loaded:&lt;div&gt;&lt;ul&gt;&lt;li&gt;/auth/success -&amp;gt; &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;AuthSuccPage.tsx&lt;/span&gt;&lt;/li&gt;&lt;li&gt;/chat/:coversationID -&amp;gt; &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;ChatPage.tsx&lt;/span&gt; (&lt;i&gt;With unique coversation ID parameter&lt;/i&gt;)&lt;/li&gt;&lt;li&gt;workspace/:id -&amp;gt; Stud&lt;/li&gt;&lt;li&gt;/ -&amp;gt; Redirect to /chat/default&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="126" width="308" x="35" y="826" as="geometry" />
         </mxCell>
-        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-17" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="384" y="854" as="geometry" />
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-17" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;User is redirected to /login page&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="454" y="826" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
