@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NB0Xfyq_SxlvICKzqIvA" name="Authentication Process">
-    <mxGraphModel dx="1773" dy="945" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="1891" dy="1008" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,7 +88,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Step 1: Frontend Server starts&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="42" width="231" x="448.25" y="364" as="geometry" />
+          <mxGeometry height="42" width="231" x="448.25" y="357" as="geometry" />
         </mxCell>
         <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-14" edge="1" parent="1" source="Qrcdlg2kaO3kX9g_ZXo7-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Qrcdlg2kaO3kX9g_ZXo7-13" value="">
           <mxGeometry relative="1" as="geometry">
@@ -110,7 +110,7 @@
           <mxGeometry height="133" width="413.5" x="357" y="455" as="geometry" />
         </mxCell>
         <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;Authentication Process&lt;/h2&gt;" vertex="1">
-          <mxGeometry height="30" width="224" x="42" y="35" as="geometry" />
+          <mxGeometry height="30" width="224" x="273" y="315" as="geometry" />
         </mxCell>
         <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-23" edge="1" parent="1" source="Qrcdlg2kaO3kX9g_ZXo7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="Qrcdlg2kaO3kX9g_ZXo7-22" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -154,7 +154,7 @@
         <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-24" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#FFFFCC;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;LoginPage.tsx&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;This file contains the components of the login page (title, text &amp;amp; &quot;Sign in with Microsoft&quot; button&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="82" width="245" x="693.75" y="896" as="geometry" />
         </mxCell>
-        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-27" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Step 4: login function from context is executed&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;User is redirected to http://localhost:3000/auth/login&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-27" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Step 4: login function from context is executed&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="49" width="258.75" x="686.88" y="1051" as="geometry" />
         </mxCell>
         <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-30" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFCC;rounded=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;useAuth.ts&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;This file contains the useAuth() function which returns the current context created by &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;context.ts&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;via &lt;i&gt;useContext() &lt;/i&gt;function from React&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -169,25 +169,14 @@
         <mxCell id="gfLW3WHZTaY1_zyk-fig-1" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="ChatPage.tsx" vertex="1">
           <mxGeometry height="135" width="242" x="320" y="1008" as="geometry" />
         </mxCell>
-        <mxCell id="iwTwe8aGceeYT2k9Okk8-4" edge="1" parent="1" source="iwTwe8aGceeYT2k9Okk8-7" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="Qrcdlg2kaO3kX9g_ZXo7-27" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="816.2450000000001" y="1197" as="sourcePoint" />
-            <mxPoint x="1044" y="1162" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LFV_McN0dqtsHVmcMnNx-1" connectable="0" parent="iwTwe8aGceeYT2k9Okk8-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
-          <mxGeometry relative="1" x="0.1847" y="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="P_8QMJkVidx2xVQaftXv-4" edge="1" parent="1" source="iwTwe8aGceeYT2k9Okk8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P_8QMJkVidx2xVQaftXv-3" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iwTwe8aGceeYT2k9Okk8-7" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#99CCFF;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;routes.ts&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="82" width="245" x="693.76" y="1260" as="geometry" />
+        <mxCell id="iwTwe8aGceeYT2k9Okk8-7" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#99CCFF;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;routes.ts&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;In this file, the Express router for authentication routes are defined.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;There are 5 endpoints:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;table border=&quot;1&quot; style=&quot;border: 1px solid rgb(0, 0, 0); border-collapse: collapse;&quot; align=&quot;center&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;&quot;&gt;&lt;b&gt;Endpoint&lt;/b&gt;&lt;/td&gt;&lt;td style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp;Method&amp;nbsp;&lt;/b&gt;&lt;/td&gt;&lt;td style=&quot;&quot;&gt;&lt;b&gt;Purpose&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;/auth/login&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;GET&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Start OAuth flow -&amp;gt; Redirect to Microsoft&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;/auth/callback&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;GET&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Handle Microsoft&#39;s redirect with auth code&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;/auth/me&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;GET&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Get current user info (From token in cookie)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;/auth/refresh&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;POST&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Silently refresh expired token&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;/auth/logout&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;POST&lt;/td&gt;&lt;td border=&quot;1&quot; style=&quot;text-align: left; border-collapse: collapse;&quot;&gt;Clear all auth cookies&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="189" width="357" x="637.75" y="1449" as="geometry" />
         </mxCell>
         <mxCell id="2fUm7K_A08hgBxIcJMNW-1" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;b&gt;Frontend (Port: 5173)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="161" width="336" x="287" y="119" as="geometry" />
+          <mxGeometry height="49" width="336" x="395.75" y="168" as="geometry" />
         </mxCell>
         <mxCell id="2fUm7K_A08hgBxIcJMNW-2" parent="2fUm7K_A08hgBxIcJMNW-1" style="shape=component;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
           <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
@@ -195,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P_8QMJkVidx2xVQaftXv-1" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;b&gt;Express Server (Port: 3000)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="161" width="336" x="77" y="1288" as="geometry" />
+          <mxGeometry height="60.5" width="336" x="1477" y="1256.75" as="geometry" />
         </mxCell>
         <mxCell id="P_8QMJkVidx2xVQaftXv-2" parent="P_8QMJkVidx2xVQaftXv-1" style="shape=component;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
           <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
@@ -203,7 +192,53 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P_8QMJkVidx2xVQaftXv-3" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#99CCFF;rounded=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;entra.ja&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="213.74" x="1081.26" y="1261" as="geometry" />
+          <mxGeometry height="82" width="213.74" x="1281" y="1502.5" as="geometry" />
+        </mxCell>
+        <mxCell id="P_8QMJkVidx2xVQaftXv-5" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#99CCFF;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;index.ts&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="245" x="1113" y="1246" as="geometry" />
+        </mxCell>
+        <mxCell id="qb-k_GShMh2g4gSSdUIu-1" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#99CCFF;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;app.ts&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="245" x="693.75" y="1246" as="geometry" />
+        </mxCell>
+        <mxCell id="2VeB0C_K4cVCQPVKL2Kw-2" edge="1" parent="1" source="qb-k_GShMh2g4gSSdUIu-1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="P_8QMJkVidx2xVQaftXv-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1155" y="1485" as="sourcePoint" />
+            <mxPoint x="1205" y="1435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2VeB0C_K4cVCQPVKL2Kw-3" edge="1" parent="1" source="2fUm7K_A08hgBxIcJMNW-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Qrcdlg2kaO3kX9g_ZXo7-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="609" y="400" as="sourcePoint" />
+            <mxPoint x="659" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2VeB0C_K4cVCQPVKL2Kw-4" edge="1" parent="1" source="P_8QMJkVidx2xVQaftXv-1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="P_8QMJkVidx2xVQaftXv-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1155" y="1289" as="sourcePoint" />
+            <mxPoint x="1205" y="1239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3FLJqaSHvfbItPaCIXcf-2" edge="1" parent="1" source="qb-k_GShMh2g4gSSdUIu-1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="iwTwe8aGceeYT2k9Okk8-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="910" y="1464" as="sourcePoint" />
+            <mxPoint x="960" y="1414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3FLJqaSHvfbItPaCIXcf-3" connectable="0" parent="3FLJqaSHvfbItPaCIXcf-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Any incoming requests starting with&amp;nbsp;&lt;div&gt;/auth are handed of to authRouter()&amp;nbsp;&lt;/div&gt;&lt;div&gt;function&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;in &lt;span style=&quot;background-color: light-dark(#FFFF33,var(--ge-dark-color, #121212));&quot;&gt;routes.ts&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0674" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3FLJqaSHvfbItPaCIXcf-4" edge="1" parent="1" source="Qrcdlg2kaO3kX9g_ZXo7-27" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qb-k_GShMh2g4gSSdUIu-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="896" y="1191" as="sourcePoint" />
+            <mxPoint x="946" y="1141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3FLJqaSHvfbItPaCIXcf-5" connectable="0" parent="3FLJqaSHvfbItPaCIXcf-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="User is redirected to&amp;nbsp;&lt;div&gt;http://localhost:3000/auth/login&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0059" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
