@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NB0Xfyq_SxlvICKzqIvA" name="Seite-2">
-    <mxGraphModel dx="1350" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="2600" math="0" shadow="0">
+    <mxGraphModel dx="1091" dy="582" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="2600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,6 +27,24 @@
           <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-11" edge="1" parent="1" source="Qrcdlg2kaO3kX9g_ZXo7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qrcdlg2kaO3kX9g_ZXo7-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;Step 1: Frontend Server starts&lt;/b&gt;" vertex="1">
+          <mxGeometry height="42" width="231" x="140" y="392" as="geometry" />
+        </mxCell>
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-14" edge="1" parent="1" source="Qrcdlg2kaO3kX9g_ZXo7-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;edgeStyle=orthogonalEdgeStyle;" target="Qrcdlg2kaO3kX9g_ZXo7-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Step 2: The user opens any frontend page.&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;App.tsx is wrapped in &amp;lt;AuthProvider&amp;gt; (React Functional Component&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;AuthProvider component comes from AuthContext.tsx which returns a JSX element of AuthContext created in context.ts&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;App and all its children as access auth context.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="139" width="413.5" x="48.75" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;Authentication Process&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="224" x="56" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-13" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;AuthContext.tsx&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;AuthProvider Functional Component&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Returns AuthContext which is a React context created in context.ts containing the following fields:&lt;/font&gt;&lt;/li&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;user (Interface with id, name, email)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;loading (React State Hook initially set to &quot;true&quot;)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;login (Function that redirects to &lt;i style=&quot;&quot;&gt;http://localhost:3000/auth/login&lt;/i&gt;)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;logout (Function to send POST message to &lt;i&gt;http://localhost:3000/auth/logout&lt;/i&gt; and redirects user to /login)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145.5" width="385" x="553" y="479.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
