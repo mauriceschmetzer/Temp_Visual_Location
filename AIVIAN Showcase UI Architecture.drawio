@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.1" pages="2">
   <diagram name="App Architecture" id="GTV76uMk7IptnBHrq9q0">
-    <mxGraphModel dx="978" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,16 +32,22 @@
           <mxGeometry height="290" width="322" x="1108" y="440" as="geometry" />
         </mxCell>
         <mxCell id="I3mgRrAGZTvPrtyKB-bw-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=center;" value="router.ts" vertex="1">
-          <mxGeometry height="60" width="120" x="1530" y="500" as="geometry" />
+          <mxGeometry height="60" width="120" x="1600" y="860" as="geometry" />
         </mxCell>
-        <mxCell id="I3mgRrAGZTvPrtyKB-bw-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="app.ts" vertex="1">
-          <mxGeometry height="60" width="120" x="1530" y="410" as="geometry" />
+        <mxCell id="I3mgRrAGZTvPrtyKB-bw-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="app.ts&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="1650" y="360" as="geometry" />
         </mxCell>
         <mxCell id="I3mgRrAGZTvPrtyKB-bw-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="config.js" vertex="1">
-          <mxGeometry height="60" width="120" x="1530" y="580" as="geometry" />
+          <mxGeometry height="60" width="120" x="1600" y="940" as="geometry" />
         </mxCell>
-        <mxCell id="I3mgRrAGZTvPrtyKB-bw-14" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="correlationMiddleware.ts" vertex="1">
-          <mxGeometry height="60" width="170" x="1530" y="670" as="geometry" />
+        <mxCell id="I3mgRrAGZTvPrtyKB-bw-14" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="correlationMiddleware.ts&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;This file generates/propagates anunique correlation ID for each request.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;correlationMiddleware(req, res, next) -&amp;gt;&amp;nbsp; Function to add correlation ID &amp;amp; response header&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;getCorrelationID(req) -&amp;gt; Function to get correlation ID of request&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;getCorrelationHeaders(req) -&amp;gt; Function to get headers object&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="330" x="1920" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="XftX1_zzCSStTip2CJsT-2" edge="1" parent="1" source="I3mgRrAGZTvPrtyKB-bw-3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.999;exitY=0.532;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="I3mgRrAGZTvPrtyKB-bw-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1510" y="640" as="sourcePoint" />
+            <mxPoint x="1560" y="590" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
