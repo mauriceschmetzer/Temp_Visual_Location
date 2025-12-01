@@ -12,10 +12,18 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="F1WyzkrHCwBAeRcVmtjT-10" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;b&gt;Frontend&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;App.tsx&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;+ Attribute2: Type&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="378" width="378" x="462" y="280" as="geometry" />
+        <mxCell id="F1WyzkrHCwBAeRcVmtjT-10" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;b&gt;Frontend (Port: 5173)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;App.tsx&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/login -&amp;gt; &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;LoginPage.tsx&lt;/span&gt;&lt;/li&gt;&lt;li&gt;/auth/success -&amp;gt; &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;AuthSuccessPage.tsx&lt;/span&gt;&lt;/li&gt;&lt;li&gt;/* -&amp;gt; Protected App redirects to chats if authenticated&lt;/li&gt;&lt;ul&gt;&lt;li&gt;/auth/success -&amp;gt; Redirected to chats&lt;/li&gt;&lt;li&gt;/chat/:id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt; &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;ChatPage.tsx&lt;/span&gt;&lt;/li&gt;&lt;li&gt;/workspace/:id -&amp;gt; Stub&lt;/li&gt;&lt;li&gt;/ -&amp;gt; Navigates to /chat/default&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="161" width="336" x="168" y="112" as="geometry" />
         </mxCell>
         <mxCell id="F1WyzkrHCwBAeRcVmtjT-11" parent="F1WyzkrHCwBAeRcVmtjT-10" style="shape=component;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-1" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;b&gt;Express Server (Port: 3000)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="161" width="336" x="644" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Qrcdlg2kaO3kX9g_ZXo7-2" parent="Qrcdlg2kaO3kX9g_ZXo7-1" style="shape=component;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
           <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
