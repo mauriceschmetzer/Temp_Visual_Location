@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NB0Xfyq_SxlvICKzqIvA" name="Authentication Process">
-    <mxGraphModel dx="3151" dy="1680" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="945" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,8 +180,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="P_8QMJkVidx2xVQaftXv-4" edge="1" parent="1" source="iwTwe8aGceeYT2k9Okk8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P_8QMJkVidx2xVQaftXv-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iwTwe8aGceeYT2k9Okk8-7" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#99CCFF;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;routes.ts&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="82" width="245" x="693.75" y="1183" as="geometry" />
+          <mxGeometry height="82" width="245" x="693.76" y="1260" as="geometry" />
         </mxCell>
         <mxCell id="2fUm7K_A08hgBxIcJMNW-1" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;b&gt;Frontend (Port: 5173)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="161" width="336" x="287" y="119" as="geometry" />
@@ -192,12 +195,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P_8QMJkVidx2xVQaftXv-1" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;b&gt;Express Server (Port: 3000)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="161" width="336" x="77" y="1225" as="geometry" />
+          <mxGeometry height="161" width="336" x="77" y="1288" as="geometry" />
         </mxCell>
         <mxCell id="P_8QMJkVidx2xVQaftXv-2" parent="P_8QMJkVidx2xVQaftXv-1" style="shape=component;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
           <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="P_8QMJkVidx2xVQaftXv-3" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#99CCFF;rounded=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;entra.ja&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="213.74" x="1081.26" y="1261" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
