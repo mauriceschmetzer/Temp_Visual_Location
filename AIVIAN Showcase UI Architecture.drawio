@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.1" pages="2">
   <diagram name="App Architecture" id="GTV76uMk7IptnBHrq9q0">
-    <mxGraphModel dx="1773" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="1493" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,21 +21,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I3mgRrAGZTvPrtyKB-bw-1" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;b&gt;Express Server (Port: 3000)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="161" width="336" x="1080" y="140" as="geometry" />
+          <mxGeometry height="161" width="336" x="1101" y="130" as="geometry" />
         </mxCell>
         <mxCell id="I3mgRrAGZTvPrtyKB-bw-2" parent="I3mgRrAGZTvPrtyKB-bw-1" style="shape=component;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
           <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I3mgRrAGZTvPrtyKB-bw-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;index.ts&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;const app = createApp() -&amp;gt; (&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;createProxyMiddleware(&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;target = config.fastAPIBaseUrl,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;...&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;const server = http.createServer(app)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;attachWsServer(server)&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="290" width="322" x="1108" y="440" as="geometry" />
+        <mxCell id="I3mgRrAGZTvPrtyKB-bw-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;index.ts&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Creates Express app by calling createApp() from app.ts&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Creates Proxy Middleware to act as a secure bridge&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Starts HTTP server using the Express app.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Attaches Websocket Server to the HTTP Server&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Listens on http://localhost:3000&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="402" x="1068" y="440" as="geometry" />
         </mxCell>
         <mxCell id="I3mgRrAGZTvPrtyKB-bw-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=center;" value="router.ts" vertex="1">
-          <mxGeometry height="60" width="120" x="1640" y="550" as="geometry" />
+          <mxGeometry height="60" width="120" x="1010" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="I3mgRrAGZTvPrtyKB-bw-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="app.ts&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="220" x="1650" y="360" as="geometry" />
+        <mxCell id="I3mgRrAGZTvPrtyKB-bw-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;app.ts&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Creates Express APP&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Uses correlationIdMiddleware() function from &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;correlationMiddleware.ts&lt;/span&gt; to attach a ID to every request for request tracing&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Parses JSON&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Parses Cookies from HTTP requests&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Any incoming requests starting with /auth are handed of to authRouter() function in &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;routes.ts&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="370" x="1590" y="430" as="geometry" />
         </mxCell>
         <mxCell id="aoOnMfsLRNVLt0j_OpBX-2" edge="1" parent="1" source="I3mgRrAGZTvPrtyKB-bw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aoOnMfsLRNVLt0j_OpBX-1" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -44,9 +44,9 @@
           <mxGeometry height="180" width="320" x="1480" y="870" as="geometry" />
         </mxCell>
         <mxCell id="I3mgRrAGZTvPrtyKB-bw-14" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="correlationMiddleware.ts&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;This file generates/propagates anunique correlation ID for each request.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;correlationMiddleware(req, res, next) -&amp;gt;&amp;nbsp; Function to add correlation ID &amp;amp; response header&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;getCorrelationID(req) -&amp;gt; Function to get correlation ID of request&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;getCorrelationHeaders(req) -&amp;gt; Function to get headers object&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="190" width="330" x="1920" y="380" as="geometry" />
+          <mxGeometry height="190" width="330" x="2200" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="XftX1_zzCSStTip2CJsT-2" edge="1" parent="1" source="I3mgRrAGZTvPrtyKB-bw-3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.999;exitY=0.532;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="I3mgRrAGZTvPrtyKB-bw-10" value="">
+        <mxCell id="XftX1_zzCSStTip2CJsT-2" edge="1" parent="1" source="I3mgRrAGZTvPrtyKB-bw-3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.999;exitY=0.532;exitDx=0;exitDy=0;exitPerimeter=0;" target="I3mgRrAGZTvPrtyKB-bw-10" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1510" y="640" as="sourcePoint" />
             <mxPoint x="1560" y="590" as="targetPoint" />
@@ -54,6 +54,21 @@
         </mxCell>
         <mxCell id="aoOnMfsLRNVLt0j_OpBX-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="env.ts" vertex="1">
           <mxGeometry height="60" width="120" x="1980" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="_iphS9P7hLnMchGfOH7K-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="routes.js" vertex="1">
+          <mxGeometry height="60" width="120" x="2150" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="c3osIEHt_Qm9Qlqpfta7-3" edge="1" parent="1" source="I3mgRrAGZTvPrtyKB-bw-10" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="_iphS9P7hLnMchGfOH7K-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2110" y="670" as="sourcePoint" />
+            <mxPoint x="2160" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3osIEHt_Qm9Qlqpfta7-4" edge="1" parent="1" source="I3mgRrAGZTvPrtyKB-bw-10" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="I3mgRrAGZTvPrtyKB-bw-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2110" y="670" as="sourcePoint" />
+            <mxPoint x="2160" y="620" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
