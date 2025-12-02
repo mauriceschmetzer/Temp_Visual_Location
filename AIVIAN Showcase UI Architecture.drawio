@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NB0Xfyq_SxlvICKzqIvA" name="Authentication Process">
-    <mxGraphModel dx="1418" dy="756" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="605" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,8 +169,8 @@
             <mxPoint x="1919" y="714" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gfLW3WHZTaY1_zyk-fig-1" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="ChatPage.tsx" vertex="1">
-          <mxGeometry height="135" width="242" x="2639" y="996.25" as="geometry" />
+        <mxCell id="gfLW3WHZTaY1_zyk-fig-1" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="ChatPage.tsx&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In this file is the main container that renders the chat UI: Header, Messages (&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;ChatBubble.tsx&lt;/span&gt;),&amp;nbsp;&lt;/div&gt;&lt;div&gt;Status, Input as text area &amp;amp; send button (&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;ChatInput.tsx&lt;/span&gt;) &amp;amp; HITL Approval Dialog&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;It also imports functions from &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;useAgentChat.tsx&lt;/span&gt; to send messages and&amp;nbsp;&lt;/div&gt;&lt;div&gt;approve / reject HITL requests&lt;/div&gt;" vertex="1">
+          <mxGeometry height="109.93" width="434" x="2520" y="1008.7800000000001" as="geometry" />
         </mxCell>
         <mxCell id="P_8QMJkVidx2xVQaftXv-4" edge="1" parent="1" source="iwTwe8aGceeYT2k9Okk8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.76;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" target="P_8QMJkVidx2xVQaftXv-3" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -322,10 +322,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6fzx8BrjxO2zo6uEaYiq-25" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="ChatBubble.tsx" vertex="1">
-          <mxGeometry height="135" width="242" x="3031" y="917" as="geometry" />
+          <mxGeometry height="135" width="242" x="3024" y="819" as="geometry" />
         </mxCell>
-        <mxCell id="6fzx8BrjxO2zo6uEaYiq-26" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="ChatBInput.tsx" vertex="1">
-          <mxGeometry height="135" width="242" x="3038" y="1085" as="geometry" />
+        <mxCell id="6fzx8BrjxO2zo6uEaYiq-26" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="ChatInput.tsx" vertex="1">
+          <mxGeometry height="135" width="242" x="3185" y="1085" as="geometry" />
         </mxCell>
         <mxCell id="6fzx8BrjxO2zo6uEaYiq-27" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="useAgentChat.tsx" vertex="1">
           <mxGeometry height="135" width="242" x="3045" y="1260" as="geometry" />
@@ -340,10 +340,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fE8jOFy3Z0d_ky4M5OM2-1" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#99CCFF;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;config.ts&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="63" width="119" x="462" y="1687" as="geometry" />
+          <mxGeometry height="63" width="119" x="462" y="1655.5" as="geometry" />
         </mxCell>
         <mxCell id="fgN69SE6WqyG1pGU5A9Y-1" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#99CCFF;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;env.ts&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="63" width="119" x="462" y="1806" as="geometry" />
+          <mxGeometry height="63" width="119" x="462" y="1771" as="geometry" />
         </mxCell>
         <mxCell id="fgN69SE6WqyG1pGU5A9Y-2" edge="1" parent="1" source="fgN69SE6WqyG1pGU5A9Y-1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="fE8jOFy3Z0d_ky4M5OM2-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
