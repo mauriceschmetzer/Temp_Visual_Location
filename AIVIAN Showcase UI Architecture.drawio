@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.2">
   <diagram id="NB0Xfyq_SxlvICKzqIvA" name="App Architecture">
-    <mxGraphModel dx="4051" dy="2160" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="756" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,8 +89,8 @@
             <mxPoint x="1919" y="714" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gfLW3WHZTaY1_zyk-fig-1" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="&lt;b&gt;ChatPage.tsx&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In this file is the main container that renders the chat UI: Header, Messages (&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;ChatBubble.tsx&lt;/span&gt;),&amp;nbsp;&lt;/div&gt;&lt;div&gt;Status, Input as text area &amp;amp; send button (&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;ChatInput.tsx&lt;/span&gt;) &amp;amp; HITL Approval Dialog&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;It also imports functions from &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;useAgentChat.tsx&lt;/span&gt; to send messages and&amp;nbsp;&lt;/div&gt;&lt;div&gt;approve / reject HITL requests&lt;/div&gt;" vertex="1">
-          <mxGeometry height="109.93" width="434" x="2520" y="1008.7800000000001" as="geometry" />
+        <mxCell id="gfLW3WHZTaY1_zyk-fig-1" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="&lt;b&gt;ChatPage.tsx&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In this file is the main container that renders the chat UI:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Header, Messages (&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;ChatBubble.tsx&lt;/span&gt;),&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tatus, Input as text area &amp;amp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Send button (&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(255, 255, 51);&quot;&gt;ChatInput.tsx&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) &amp;amp; HITL Approval Dialog&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;It also imports the following values from &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;useAgentChat.tsx:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;&lt;table border=&quot;1&quot; style=&quot;text-align: left; border: 1px solid rgb(0, 0, 0); border-collapse: collapse;&quot; align=&quot;center&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Prop&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;messages&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Array of chat messages&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;isStreaming&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Boolean if AI is currently responding&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;error&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Any error messages&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;sendUserMessage&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Function to send a message&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;cancelCurrentRun&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Function to stop AI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;hitlRequest&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Pending approval request&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;respondToHitl&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Function to approve / reject HITL request&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300.22" width="434" x="2569" y="913.64" as="geometry" />
         </mxCell>
         <mxCell id="P_8QMJkVidx2xVQaftXv-4" edge="1" parent="1" source="iwTwe8aGceeYT2k9Okk8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.76;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" target="P_8QMJkVidx2xVQaftXv-3" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -241,11 +241,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6fzx8BrjxO2zo6uEaYiq-25" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="&lt;b&gt;ChatBubble.tsx&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This file renders a single chat message, including text content and activities (Tables, charts) using SWITCH function.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Further activities would&amp;nbsp;&lt;/div&gt;&lt;div&gt;be added here&lt;/div&gt;" vertex="1">
-          <mxGeometry height="175" width="175" x="2527" y="728" as="geometry" />
+        <mxCell id="6fzx8BrjxO2zo6uEaYiq-25" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="&lt;b&gt;ChatBubble.tsx&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This component renders a single&amp;nbsp;&lt;/div&gt;&lt;div&gt;chat message, including text content and activities (Tables, charts) using SWITCH function.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Further activities would&amp;nbsp;&lt;/div&gt;&lt;div&gt;be added here&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="175" x="2667" y="581" as="geometry" />
         </mxCell>
-        <mxCell id="6fzx8BrjxO2zo6uEaYiq-26" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="&lt;b&gt;ChatInput.tsx&lt;/b&gt;" vertex="1">
-          <mxGeometry height="175" width="175" x="2730" y="728" as="geometry" />
+        <mxCell id="6fzx8BrjxO2zo6uEaYiq-26" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="&lt;b&gt;ChatInput.tsx&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;This component renders the text input area and action buttons for sending messages to the AI agent.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="175" x="3094" y="623" as="geometry" />
         </mxCell>
         <mxCell id="6fzx8BrjxO2zo6uEaYiq-27" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;align=center;rounded=1;fillColor=#FFFFCC;" value="&lt;b&gt;useAgentChat.tsx&lt;/b&gt;" vertex="1">
           <mxGeometry height="135" width="242" x="3045" y="983.71" as="geometry" />
@@ -305,6 +305,11 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2632" y="1009" as="sourcePoint" />
             <mxPoint x="2682" y="959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a76ys3yR0mW_lPunN0Ln-4" connectable="0" parent="a76ys3yR0mW_lPunN0Ln-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Requires isStreaming, sendUserMessage(),&amp;nbsp;&lt;div&gt;and calcelCurrentRun() props&amp;nbsp;&lt;/div&gt;&lt;div&gt;from useAgentChat.tsx&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0036" y="2" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
